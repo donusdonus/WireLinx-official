@@ -151,7 +151,7 @@ WireLinx PLC is equipped with multiple buttons and LED indicators for user inter
    - new project and test connection [Example](https://youtu.be/2iR9Q22t5_0)
    - download [Example](https://youtu.be/Tfad3BvSHQI)
    - upload [Example](https://youtu.be/ina59Y-c82w)
-   - monitoring
+   - monitoring and modify value [Example](https://youtu.be/pGsTwQJBvRU)
 1. **Ladder Logic Basics**
    - Creating simple logic circuits
    - input/output (X,Y)
