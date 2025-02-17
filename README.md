@@ -127,8 +127,9 @@ WireLinx PLC is equipped with multiple buttons and LED indicators for user inter
 ## **Training Topics for Basic PLC**
 ### Important for trainee
 - Notebook for training.
-- download and install gx-work2. 
-- download and install ch340 driver. 
+- install gx-work2. 
+- install ch340 driver. 
+- drawing training kit. [**Download**](drawing/WireLinx_Station.pdf)
 
 <img src="./img/training_1.png" width="80%">
 
