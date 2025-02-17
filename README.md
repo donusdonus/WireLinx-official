@@ -1,4 +1,5 @@
 # **WireLinx Programmable Logic Control (PLC) User Manual**
+<img src="./img/pic_10.png" width="80%">
 
 ## **Table of Contents**
 1. **Introduction**
@@ -25,23 +26,10 @@
 6. **Working with I/O Modules**
    - Digital Input (8 Points, 24VDC Source Type)
    - Digital Output (8 Points, 24VDC Sink Type)
-7. **Debugging and Monitoring**
-   - Real-Time Clock (RTC) Support
-   - Real-Time Data Monitoring
-   - Troubleshooting Guide
-   - Remote Debugging
-8. **Advanced Features**
-   - Edge Computing Capabilities
-   - Expanding with Additional Modules
-9. **Safety and Maintenance**
+7. **Safety and Maintenance**
    - Electrical Safety Guidelines
    - Routine Maintenance Procedures
    - Firmware Updates
-10. **Frequently Asked Questions (FAQ)**
-11. **Technical Support and Resources**
-   - Contacting Support
-   - Online Documentation and Community
-
 ---
 
 ## **1. Introduction**
@@ -69,20 +57,19 @@ WireLinx PLC can be used in:
 
 ## **2. Hardware Specifications**
 
-| Component               | Specification                    |
-|-------------------------|---------------------------------|
-| **Processor**          | ESP32-S3                        |
-| **Flash Memory**       | 512KB                           |
-| **RAM**                | 256KB                           |
-| **Digital Inputs**     | 8 Points, 24VDC Source Type    |
-| **Digital Outputs**    | 8 Points, 24VDC Sink Type     |
-| **USB**               | For programming and debugging   |
-| **RS-232**            | 1 Channel for general-purpose  |
-| **RS-485**            | 1 Channel for general-purpose  |
-| **Wi-Fi**             | Built-in for remote access     |
-| **Real-Time Clock**   | Supported                       |
-| **Input Voltage**     | 12V-24V DC                      |
-| **Power Consumption** | <10W                            |
+| Component               | Specification                    |Unit|
+|-------------------------|---------------------------------|---|
+| **Processor**          | ESP32-S3                        ||
+| **Analog Inputs**     | Analog Voltage Input Resolution 16 Bits    | 4 Points|
+| **Digital Inputs**     | 24VDC Source Type    | 8 Points|
+| **Digital Outputs**    | 24VDC Sink Type  100 mA/ch   |8 Points|
+| **USB**               | USB-Serial Programmable Port   |1 Channel|
+| **RS-232**            | 1 Channel Support ASCII , FXCPU ,  ModbusSlave  |1 Channel|
+| **RS-485**            | 1 Channel Support ASCII , FXCPU ,  ModbusSlave  |1 Channel|
+| **Wi-Fi**             | Support AP and STA Mode by Web Config parameter    ||
+| **Real-Time Clock**   | Supported                       ||
+| **Input Voltage**     | 12V-24V DC                      ||
+| **Power Consumption** | <10W                            ||
 
 ---
 
