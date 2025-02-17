@@ -148,11 +148,7 @@ WireLinx PLC is equipped with multiple buttons and LED indicators for user inter
    - Digital vs Analog Inputs/Outputs
    - Wiring and Configuration
 3. **Programming with GX-WORK 2**
-   - new project and test connection
-  
-<video width="600" controls>
-  <source src="https://www.youtube.com/watch?v=2iR9Q22t5_0" type="video/mp4">
-</video>
+   - new project and test connection [YouTube Example](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
    - download
    - upload
