@@ -50,32 +50,24 @@ WireLinx PLC can be used in:
 ---
 
 ## **2. Hardware Specifications**
-<img src="./img/pic_13.png" width="80%">
 
-| Component               | Specification                    |Unit|
-|-------------------------|---------------------------------|---|
-| **Processor**          | ESP32-S3                        ||
-| **Analog Inputs**     | Analog Voltage Input Resolution 16 Bits    | 4 Points|
-| **Digital Inputs**     | 24VDC Source Type    | 8 Points|
-| **Digital Outputs**    | 24VDC Sink Type  100 mA/ch   |8 Points|
-| **USB**               | USB-Serial Programmable Port   |1 Channel|
-| **RS-232**            | 1 Channel Support ASCII , FXCPU ,  ModbusSlave  |1 Channel|
-| **RS-485**            | 1 Channel Support ASCII , FXCPU ,  ModbusSlave  |1 Channel|
-| **Wi-Fi**             | Support AP and STA Mode by Web Config parameter    ||
-| **Real-Time Clock**   | Supported                       ||
-| **Input Voltage**     | 12V-24V DC                      ||
-| **Power Consumption** | <10W                            ||
+<img src="./img/layout.png" width="80%">
 
+|No.| Component               | Specification                    |Number|
+|-|-------------------------|---------------------------------|---|
+|| **Processor**          | ESP32-S3                        ||
+|1| **Power Suppply**     | DC Voltage 24VDC.     ||
+|2| **Analog Inputs**       | Voltage Input 0-10V. Resolution 16 Bits |4 Channels|
+|3| **Digital Inputs**     | 24VDC Source Type    | 8 Points|
+|4| **Digital Outputs**    | 24VDC Sink Type  100 mA/ch   |8 Points|
+|5| **RS-485**            | 1 Channel Support ASCII , FXCPU ,  ModbusSlave  |1 Channel|
+|6| **RS-232**            | 1 Channel Support ASCII , FXCPU ,  ModbusSlave  |1 Channel|
+|7| **USB**               | USB-Serial Programmable Port   |1 Channel|
+|8| **LoRa extenal antenna** | Support antenna 2.4 GHZ    ||
+|9| **Wi-Fi extenal antenna**| Support antenna 433 Mhz    ||
 ---
 
 ## **3. Getting Started**
-### **Unboxing and Setup**
-1. Verify the package contents:
-   - WireLinx PLC unit
-   - Power adapter
-   - User manual
-   - Communication cables
-2. Inspect the unit for any physical damage.
 
 ### **Connecting Power and Peripherals**
 - Connect the 12V-24V DC power supply to the PLC.
@@ -83,16 +75,25 @@ WireLinx PLC can be used in:
 - Use Ethernet, RS-232, or RS-485 for communication.
 
 ### **Installing Required Software**
-- Download and install **WireLinx IDE**.
-- Install additional libraries for C/C++ or Python development.
+- **Download and install GX-WORK2**
 
+### **Operating Buttons and Status Indicators**
+WireLinx PLC is equipped with multiple buttons and LED indicators for user interaction and system status monitoring.
+
+#### **Buttons**
+- **Reset Button:** Used to restart the PLC without affecting saved configurations.
+- **User Button:** Can be programmed for specific functions such as mode selection or manual override.
+
+#### **Status Indicators (LEDs)**
+- **Power LED:** Indicates whether the PLC is powered on.
+- **Communication LED:** Blinks when there is active communication via RS-232, RS-485, or Wi-Fi.
+- **I/O Status LEDs:** Display the state of digital inputs and outputs.
+- **Error LED:** Lights up in case of system errors or malfunctions.
 ---
 
 ## **4. Programming WireLinx PLC**
 ### **Supported Programming Languages**
-- **IEC 61131-3:** Ladder Logic (LD)
-- **Embedded Programming:** C/C++
-- **Scripting Languages:** Python
+- **Ladder Logic**
 
 ### **Using Ladder Logic (LD)**
 - Create rungs to define logical operations.
@@ -124,18 +125,26 @@ WireLinx PLC can be used in:
 ---
 
 ## **Training Topics for Basic PLC**
+
+<img src="./img/training_1.png" width="80%">
+
 1. **Introduction to PLCs**
    - What is a PLC?
    - How PLCs are used in industrial automation
 2. **Understanding I/O Types**
    - Digital vs Analog Inputs/Outputs
    - Wiring and Configuration
-3. **Ladder Logic Basics**
+3. **Programming with GX-WORK 2**
+   - download
+   - upload
+   - monitoring
+4. **Ladder Logic Basics**
    - Creating simple logic circuits
-   - Using timers and counters
-4. **Programming with WireLinx IDE**
-   - Writing and deploying programs
-   - Debugging tools and monitoring
+   - input/output
+   - internal bit (M,S)
+   - Using timers (T)
+   - Using counters (C)
+   - Using Datamemory (D)
 5. **Communication Protocols**
    - Configuring RS-232 and RS-485
    - Setting up Modbus communication
