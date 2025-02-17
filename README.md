@@ -122,6 +122,9 @@ WireLinx PLC is equipped with multiple buttons and LED indicators for user inter
 ---
 ## **6. Working with I/O**
 - ### Example input wiring connection
+
+  <img src="./img/input_wiring.png" width="80%">
+  
 - ### Example output wiring connection
   
   <img src="./img/output_wiring.png" width="80%">
