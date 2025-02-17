@@ -2,25 +2,25 @@
 <img src="./img/pic_10.png" width="80%">
 
 ## **Table of Contents**
-- [**WireLinx Programmable Logic Control (PLC) User Manual**](#wirelinx-programmable-logic-control-plc-user-manual)
-  - [**Table of Contents**](#table-of-contents)
+- **WireLinx Programmable Logic Control (PLC) User Manual**
+  - **Table of Contents**
   - [**1. Introduction**](#1-introduction)
-    - [**Overview of WireLinx PLC**](#overview-of-wirelinx-plc)
-    - [**Key Features**](#key-features)
-    - [**Applications**](#applications)
+    - **Overview of WireLinx PLC**
+    - **Key Features**
+    - **Applications**
   - [**2. Hardware Specifications**](#2-hardware-specifications)
   - [**3. Getting Started**](#3-getting-started)
-    - [**Unboxing and Setup**](#unboxing-and-setup)
-    - [**Connecting Power and Peripherals**](#connecting-power-and-peripherals)
-    - [**Installing Required Software**](#installing-required-software)
+    - **Unboxing and Setup**
+    - **Connecting Power and Peripherals**
+    - **Installing Required Software**
   - [**4. Programming WireLinx PLC**](#4-programming-wirelinx-plc)
-    - [**Supported Programming Languages**](#supported-programming-languages)
-    - [**Using Ladder Logic (LD)**](#using-ladder-logic-ld)
-    - [**Configuring the Web Interface**](#configuring-the-web-interface)
+    - **Supported Programming Languages**
+    - **Using Ladder Logic (LD)**
+    - **Configuring the Web Interface**
   - [**5. Communication Protocols**](#5-communication-protocols)
-    - [**RS-232 and RS-485 Communication**](#rs-232-and-rs-485-communication)
-    - [**Modbus RTU \& Modbus TCP**](#modbus-rtu--modbus-tcp)
-    - [**Wi-Fi and Web-based Configuration**](#wi-fi-and-web-based-configuration)
+    - **RS-232 and RS-485 Communication**
+    -  **Modbus RTU \& Modbus TCP**
+    - **Wi-Fi and Web-based Configuration**
   - [**6. Working with I/O**](#6-working-with-io)
   - [**7. Safety and Maintenance**](#7-safety-and-maintenance)
   - [**Training Topics for Basic PLC**](#training-topics-for-basic-plc)
