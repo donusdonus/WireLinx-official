@@ -51,7 +51,7 @@ WireLinx PLC can be used in:
 
 ## **2. Hardware Specifications**
 
-<img src="./img/layout.png" width="80%">
+<img src="./img/layout_1.png" width="80%">
 
 |No.| Component               | Specification                    |Number|
 |-|-------------------------|---------------------------------|---|
@@ -63,8 +63,9 @@ WireLinx PLC can be used in:
 |5| **RS-485**            | 1 Channel Support ASCII , FXCPU ,  ModbusSlave  |1 Channel|
 |6| **RS-232**            | 1 Channel Support ASCII , FXCPU ,  ModbusSlave  |1 Channel|
 |7| **USB**               | USB-Serial Programmable Port   |1 Channel|
-|8| **LoRa extenal antenna** | Support antenna 2.4 GHZ    ||
-|9| **Wi-Fi extenal antenna**| Support antenna 433 Mhz    ||
+|8| **Jumper**               | Switch Power Source Terminal / USB   ||
+|9| **LoRa extenal antenna** | Support antenna 2.4 GHZ    ||
+|10| **Wi-Fi extenal antenna**| Support antenna 433 Mhz    ||
 ---
 
 ## **3. Getting Started**
@@ -120,6 +121,10 @@ WireLinx PLC is equipped with multiple buttons and LED indicators for user inter
 
 ---
 ## **6. Working with I/O**
+- ### Example input wiring connection
+- ### Example output wiring connection
+  
+  <img src="./img/output_wiring.png" width="80%">
 ---
 ## **7. Safety and Maintenance**
 ---
