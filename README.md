@@ -150,8 +150,8 @@ WireLinx PLC is equipped with multiple buttons and LED indicators for user inter
 3. **Programming with GX-WORK 2**
    - new project and test connection
   
-  <video width="320" height="240" controls>
-  <source src="https://youtu.be/2iR9Q22t5_0" type="video/mp4">
+<video width="600" controls>
+  <source src="https://www.youtube.com/watch?v=2iR9Q22t5_0" type="video/mp4">
 </video>
 
    - download
