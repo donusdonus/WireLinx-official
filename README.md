@@ -125,6 +125,10 @@ WireLinx PLC is equipped with multiple buttons and LED indicators for user inter
 ---
 
 ## **Training Topics for Basic PLC**
+### Important for trainee
+- Notebook for training.
+- download and install gx-work2. 
+- download and install ch340 driver. 
 
 <img src="./img/training_1.png" width="80%">
 
@@ -135,12 +139,13 @@ WireLinx PLC is equipped with multiple buttons and LED indicators for user inter
    - Digital vs Analog Inputs/Outputs
    - Wiring and Configuration
 3. **Programming with GX-WORK 2**
+   - check connection
    - download
    - upload
    - monitoring
 4. **Ladder Logic Basics**
    - Creating simple logic circuits
-   - input/output
+   - input/output (X,Y)
    - internal bit (M,S)
    - Using timers (T)
    - Using counters (C)
