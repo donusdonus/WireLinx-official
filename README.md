@@ -5,22 +5,22 @@
 - **WireLinx Programmable Logic Control (PLC) User Manual**
   - **Table of Contents**
   - [**1. Introduction**](#1-introduction)
-    - **Overview of WireLinx PLC**
-    - **Key Features**
-    - **Applications**
+    - Overview of WireLinx PLC
+    - Key Features
+    - Applications
   - [**2. Hardware Specifications**](#2-hardware-specifications)
   - [**3. Getting Started**](#3-getting-started)
-    - **Unboxing and Setup**
-    - **Connecting Power and Peripherals**
-    - **Installing Required Software**
+    - Unboxing and Setup
+    - Connecting Power and Peripherals
+    - Installing Required Software
   - [**4. Programming WireLinx PLC**](#4-programming-wirelinx-plc)
-    - **Supported Programming Languages**
-    - **Using Ladder Logic (LD)**
-    - **Configuring the Web Interface**
+    - Supported Programming Languages
+    - Using Ladder Logic (LD)
+    - Configuring the Web Interface
   - [**5. Communication Protocols**](#5-communication-protocols)
-    - **RS-232 and RS-485 Communication**
-    -  **Modbus RTU \& Modbus TCP**
-    - **Wi-Fi and Web-based Configuration**
+    - RS-232 and RS-485 Communication
+    - Modbus RTU \& Modbus TCP
+    - Wi-Fi and Web-based Configuration
   - [**6. Working with I/O**](#6-working-with-io)
   - [**7. Safety and Maintenance**](#7-safety-and-maintenance)
   - [**Training Topics for Basic PLC**](#training-topics-for-basic-plc)
@@ -152,20 +152,28 @@ WireLinx PLC is equipped with multiple buttons and LED indicators for user inter
    - download [Example](https://youtu.be/Tfad3BvSHQI)
    - upload [Example](https://youtu.be/ina59Y-c82w)
    - monitoring and modify value [Example](https://youtu.be/pGsTwQJBvRU)
-1. **Ladder Logic Basics**
-   - Creating simple logic circuits
+4. **Ladder Logic Basics**
+   - logic circuits concepts 
    - input/output (X,Y)
-   - internal bit (M,S)
-   - Using timers (T)
-   - Using counters (C)
-   - Using Datamemory (D)
-5. **Communication Protocols**
+   - internal relay (M,S)
+   - timers (T)
+   - counters (C)
+   - Datamemory (D)
+5. **PLC Basic Programming Exercises**
+    - Create simple ladder logic program to turn on an output when a switch is pressed.
+    - Write program to control the operation of a relay using a start and stop button.
+    - Write timer to turn off relay automatically after a preset time.
+    - Write program to counter the number of cycle.
+
+6. **Communication Protocols**
    - Configuring RS-232 and RS-485
    - Setting up Modbus communication
-6. **Web-Based Configuration**
+
+7. **Web-Based Configuration**
    - Connecting via Wi-Fi
    - Remote setup and diagnostics
-7. **Troubleshooting & Maintenance**
+
+8. **Troubleshooting & Maintenance**
    - Common PLC issues and solutions
    - Firmware updates and system diagnostics
 
