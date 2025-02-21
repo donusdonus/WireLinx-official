@@ -168,8 +168,9 @@ WireLinx PLC is equipped with multiple buttons and LED indicators for user inter
 
 3. **PLC Basic Programming Exercises**
     3.1 Create simple ladder logic program to turn on an output when a switch is pressed.
+    <br>
        <img src="image-17.png" width="30%">
-       <br>
+    <br>
     3.2 Write program to self-holding circuit a relay using a start and stop button.
        <img src="image-16.png" width="30%">
        <br>
