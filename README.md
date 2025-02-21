@@ -107,6 +107,9 @@ WireLinx PLC is equipped with multiple buttons and LED indicators for user inter
 
 ### **Wi-Fi and Web-based Configuration**
 - Wireless access to PLC settings.
+
+    <img src="image-18.png" width="70%">
+    <br>
 - Remote programming and monitoring.
 
 ### **RS-232 and RS-485 Communication**
@@ -118,10 +121,10 @@ WireLinx PLC is equipped with multiple buttons and LED indicators for user inter
 
 | **Modbus** |**PLC**| **Type**                  | **Access**  | **Function Code** | **Description**                        |
 |-|-|-------------------------|------------|-----------------|------------------------------------|
-| **00001 - 09999** |**S0 - S999**| **Coil (Discrete Output)**  | Read/Write  | 01 (Read) / 05, 15 (Write) | Stores ON/OFF values for outputs  |
-| **10001 - 19999** |**M1 - M99**| **Discrete Input**       | Read-only   | 02 (Read)        | Stores ON/OFF values for inputs   |
-| **30001 - 39999** |**D0 - 02999**| **Input Register**       | Read-only   | 04 (Read)        | Stores analog input values        |
-| **40001 - 49999** |**D3000 - 05999**| **Holding Register**     | Read/Write  | 03 (Read) / 06, 16 (Write) | Stores analog output and parameters |
+| **00001 - 01000** |**S0 - S999**| **Coil (Discrete Output)**  | Read/Write  | 01 (Read) / 05, 15 (Write) | Stores ON/OFF values for outputs  |
+| **10001 - 11536** |**M1 - M1535**| **Discrete Input**       | Read-only   | 02 (Read)        | Stores ON/OFF values for inputs   |
+| **30001 - 33000** |**D0 - 02999**| **Input Register**       | Read-only   | 04 (Read)        | Stores analog input values        |
+| **40001 - 43000** |**D3000 - 05999**| **Holding Register**     | Read/Write  | 03 (Read) / 06, 16 (Write) | Stores analog output and parameters |
 
 
 ---
@@ -165,15 +168,15 @@ WireLinx PLC is equipped with multiple buttons and LED indicators for user inter
 
 3. **PLC Basic Programming Exercises**
     3.1 Create simple ladder logic program to turn on an output when a switch is pressed.
-       <img src="image-17.png" width="50%">
+       <img src="image-17.png" width="30%">
        <br>
     3.2 Write program to self-holding circuit a relay using a start and stop button.
-       <img src="image-16.png" width="50%">
+       <img src="image-16.png" width="30%">
        <br>
     3.3 Write timer to turn off relay automatically after a preset time.
     3.4 Write program to counter the number of cycle.
     3.5 Convert Electrical function process to ladder logic process.
-       <img src="image-15.png" width="70%">
+       <img src="image-15.png" width="30%">
        <br>
 4. **Communication Protocols**
    - Configuring RS-232 and RS-485
