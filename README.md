@@ -160,22 +160,22 @@ WireLinx PLC is equipped with multiple buttons and LED indicators for user inter
 | 6 | ![alt text](image-13.png)|    Instruction Set |
 
 <br><h2>2. Programming with GX-WORK 2.</h2>
-2.1 new project and test connection
+2.1 new project and test connection</p>
 <a href="https://youtu.be/2iR9Q22t5_0">
 <img src="image-19.png" alt="Video Title" width="400">
 </a>
 
-<br>2.2 download ladder logic to plc.
+<br>2.2 download ladder logic to plc.</p>
 <a href="https://www.youtube.com/watch?v=Tfad3BvSHQI">
 <img src="image-20.png" alt="Video Title" width="400">
 </a>
 
-<br>2.3 upload ladder logic from plc.
+<br>2.3 upload ladder logic from plc.</p>
 <a href="https://www.youtube.com/watch?v=ina59Y-c82w">
 <img src="image-21.png" alt="Video Title" width="400">
 </a>
 
-<br>2.4 monitoring and modify value.
+<br>2.4 monitoring and modify value.</p>
 <a href="https://youtu.be/pGsTwQJBvRU">
 <img src="image-22.png" alt="Video Title" width="400">
 </a>
