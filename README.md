@@ -157,10 +157,7 @@ WireLinx PLC can be used in:
     <img src="image-43.png" width="100%"></p>
 
     #### Chart between adc value and voltage value.
-    <img src="image-42.png" width="100%"></p>
-
-
-
+    <img src="image-44.png" width="100%"></p>
 
 ---
 ## **7. Safety and Maintenance**
@@ -180,7 +177,7 @@ WireLinx PLC can be used in:
 <img src="image-35.png" width="100%">
 </p>
 
-<br><h2>1.Ladder Logic Basics.</h2>
+<br><h2>1.Ladder Logic Basics</h2>
 | No.        | Symbol           | Description  |
 | :-: |:-| :-----|
 | 1 | ![alt text](image-7.png) | Contact Normally Open |
@@ -216,7 +213,11 @@ WireLinx PLC can be used in:
 <img src="image-22.png" alt="Video Title" width="700">
 </a>
 
-<h2>3. PLC Basic Programming Exercises.</h2>
+<h2>3. PLC Basic Programming Exercises .</h2>
+
+```
+How to work coil / contact / timer / counter
+```
 3.1 Create simple ladder logic program to turn on an output when a switch is pressed</br>
 
 ```
@@ -274,15 +275,75 @@ WireLinx PLC can be used in:
 <p style="text-align: center;">
        <img src="image-15.png" width="100%">
     </p><br>
-4. **Communication Protocols**
+
+### 4. **Basic Analog input with Sensor**
+
+```
+Objective. 
+- Simple Math linear for scale data sensor.
+- use Analog Channel A0 and A1.
+- use math instruction.
+```
+</p>
+    
+![alt text](image-45.png)</p>
+
+4.1 Understand voltage with temperature and humidity.
+
+|**No**| **Voltage (V)** |**Temperature (C)**| **Humidity (%RH)** |
+|:-:|:-:|:-:|:-:|
+|1|0|-20|0|
+|2|1|-10|10|
+|3|2|0|20|
+|4|3|10|30|
+|5|4|20|40|
+|6|5|30|50|
+|7|6|40|60|
+|8|7|50|70|
+|9|8|60|80|
+|10|9|70|90|
+|11|10|80|100|
+
+4.2 Plot chart between Temperature and voltage.
+
+![alt text](image-46.png)
+```
+find slope equation from parameter.
+Axis Y  ==> Tmin = -20 , Tmax = 80c.
+Axis X  ==> Vmin = 0 , Vmax = 100.  (* note Voltage input = Vmax*0.1 )
+
+from Y = MX + C  by  M = dy/dx = (Tmax-Tmin)/(Vmax - VMin) + Tmin
+                     M = ( 80 - (-20) )/( 100 - 0 )
+                     M = 1
+                     C = -20
+  
+Eq1. Temperature = Voltage - 20
+
+and convert from adc value input to voltage input.
+
+Eq2. Voltage = ( adc_raw / 268 )
+
+Move Voltage from Eq2 to Eq1.
+
+Summary
+Temperature = ( adc_raw / 268 ) - 20  <<---- Write Ladder Compute this.
+    
+
+```
+4.3 Plot chart between Humidity and voltage.
+
+
+
+
+### 5. **Communication Protocols**
    - Configuring RS-232 and RS-485
    - Setting up Modbus communication
 
-5. **Web-Based Configuration**
+### 6. **Web-Based Configuration**
    - Connecting via Wi-Fi
    - Remote setup and diagnostics
 
-6. **Troubleshooting & Maintenance**
+### 7. **Troubleshooting & Maintenance**
    - Common PLC issues and solutions
    - Firmware updates and system diagnostics
 
