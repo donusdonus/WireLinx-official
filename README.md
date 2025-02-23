@@ -27,7 +27,7 @@
 ## **1. Introduction**
 ### **Overview of WireLinx PLC**
 WireLinx PLC is a programmable logic controller designed for industrial automation and IoT applications. It features a modular and flexible architecture, allowing for seamless integration with existing systems.</p>
-![alt text](image-41.png)</p>
+![alt text](./img/image-41.png)</p>
 ### **Key Features**
 - **Core Processor:** ESP32-S3 with built-in Wi-Fi
 - **Digital Inputs:** Source Type with Isolation
@@ -73,7 +73,7 @@ WireLinx PLC can be used in:
 
 ### **Operating Buttons and Status Indicators**
    <p style="text-align: center;">
-       <img src="image-29.png" width="70%">
+       <img src="./img/image-29.png" width="70%">
     </p><br>
 
 
@@ -89,12 +89,12 @@ WireLinx PLC can be used in:
 
 #### **About Button Operation**
 - **Reset PLC :** Press for restart all process </p>
-![alt text](image-30.png)
+![alt text](./img/image-30.png)
 - **Run/Stop PLC :** Press hold 2 sec for switch to toggle before mode.</p>
-![alt text](image-31.png)
+![alt text](./img/image-31.png)
 
 - **Reset parameter config:** Reset Default Parameter config.</p>
-![alt text](image-32.png)
+![alt text](./img/image-32.png)
 
 ---
 
@@ -123,7 +123,7 @@ WireLinx PLC can be used in:
 ### **Wi-Fi and Web-based Configuration**
 - Wireless access to PLC settings.
 
-    <img src="image-18.png" width="70%">
+    <img src="./img/image-18.png" width="100%">
     <br>
 - Remote programming and monitoring.
 
@@ -154,10 +154,10 @@ WireLinx PLC can be used in:
 
 - ### Example analog input wiring connection</p>
 
-    <img src="image-43.png" width="100%"></p>
+    <img src="./img/image-43.png" width="100%"></p>
 
     #### Chart between adc value and voltage value.
-    <img src="image-44.png" width="100%"></p>
+    <img src="./img/image-44.png" width="100%"></p>
 
 ---
 ## **7. Safety and Maintenance**
@@ -180,37 +180,37 @@ WireLinx PLC can be used in:
 <br><h2>1.Ladder Logic Basics</h2>
 | No.        | Symbol           | Description  |
 | :-: |:-| :-----|
-| 1 | ![alt text](image-7.png) | Contact Normally Open |
-| 2 | ![alt text](image-9.png) | Contact Normally Close |
-| 3 | ![alt text](image-8.png) |Coil |
-| 4 | ![alt text](image-10.png)|Timer |
-| 5 | ![alt text](image-11.png)|    Counter |
-| 6 | ![alt text](image-13.png)|    Instruction Set |
+| 1 | ![alt text](./img/image-7.png) | Contact Normally Open |
+| 2 | ![alt text](./img/image-9.png) | Contact Normally Close |
+| 3 | ![alt text](./img/image-8.png) |Coil |
+| 4 | ![alt text](./img/image-10.png)|Timer |
+| 5 | ![alt text](./img/image-11.png)|    Counter |
+| 6 | ![alt text](./img/image-13.png)|    Instruction Set |
 
 #### How to understand ladder logic.</p>
-![alt text](image-36.png)</p>
-![alt text](image-37.png)</p>
-![alt text](image-38.png)</p>
-![alt text](image-40.png)
+![alt text](./img/image-36.png)</p>
+![alt text](./img/image-37.png)</p>
+![alt text](./img/image-38.png)</p>
+![alt text](./img/image-40.png)
 <h2>2. Programming with GX-WORK 2.</h2>
 2.1 new project and test connection</p>
 <a href="https://youtu.be/2iR9Q22t5_0">
-<img src="image-19.png" alt="Video Title" width="700">
+<img src="./img/image-19.png" alt="Video Title" width="700">
 </a>
 
 <br>2.2 download ladder logic to plc.</p>
 <a href="https://www.youtube.com/watch?v=Tfad3BvSHQI">
-<img src="image-20.png" alt="Video Title" width="700">
+<img src="./img/image-20.png" alt="Video Title" width="700">
 </a>
 
 <br>2.3 upload ladder logic from plc.</p>
 <a href="https://www.youtube.com/watch?v=ina59Y-c82w">
-<img src="image-21.png" alt="Video Title" width="700">
+<img src="./img/image-21.png" alt="Video Title" width="700">
 </a>
 
 <br>2.4 monitoring and modify value.</p>
 <a href="https://youtu.be/pGsTwQJBvRU">
-<img src="image-22.png" alt="Video Title" width="700">
+<img src="./img/image-22.png" alt="Video Title" width="700">
 </a>
 
 <h2>3. PLC Basic Programming Exercises .</h2>
@@ -242,7 +242,7 @@ How to work coil / contact / timer / counter
     - Press button X0 for stop process
 ``` 
 <p style="text-align: center;">
-       <img src="image-25.png" width="100%">
+       <img src="./img/image-25.png" width="100%">
     </p><br>
     3.3 Write timer to turn off relay automatically after a preset time.<p>
 
@@ -252,7 +252,7 @@ How to work coil / contact / timer / counter
     - When process start Y3 and Y4 on-off swap indcator inverval 1 sec (Timer1-Timer2)
 ``` 
 <p style="text-align: center;">
-       <img src="image-27.png" width="100%">
+       <img src="./img/image-27.png" width="100%">
     </p>
     3.4 Write program to counter the number of cycle.</p>
 
@@ -262,7 +262,7 @@ How to work coil / contact / timer / counter
     - When C0 on stop process.
 ```
 <p style="text-align: center;">
-       <img src="image-28.png" width="100%">
+       <img src="./img/image-28.png" width="100%">
     </p><br>
     3.5 Convert Electrical function process to ladder logic process.<p>
 
@@ -273,7 +273,7 @@ How to work coil / contact / timer / counter
       - mode auto
 ```
 <p style="text-align: center;">
-       <img src="image-15.png" width="100%">
+       <img src="./img/image-15.png" width="100%">
     </p><br>
 
 ### 4. **Basic Analog input with Sensor**
@@ -306,7 +306,7 @@ Objective.
 
 4.2 Plot chart between Temperature and voltage.
 
-![alt text](image-46.png)
+![alt text](./img/image-46.png)
 ```
 find slope equation from parameter.
 Axis Y  ==> Tmin = -20 , Tmax = 80c.
@@ -329,7 +329,7 @@ Summary
 Temperature = ( adc_raw / 268 ) - 20  <<---- Write Ladder Compute this.
 ```
 4.3 Plot chart between Humidity and voltage.
-![alt text](image-47.png)
+![alt text](./img/image-47.png)
 ```
 find slope equation from parameter.
 Axis Y  ==> Hmin = 0, Hmax = 100 %RH.
@@ -360,7 +360,7 @@ Humidity = ( adc_raw / 268 )  <<---- Write Ladder Compute this.
 Data Memory D8220 Analog CH1
 Data Memory D8221 Analog CH2
 ```
-![alt text](image-48.png)
+![alt text](./img/image-48.png)
 
 ### 5. **Communication Protocols**
    - Configuring RS-232 and RS-485
