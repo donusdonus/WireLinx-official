@@ -174,7 +174,7 @@ WireLinx PLC can be used in:
 <img src="./img/training_1.png" width="80%">
 <br><h2>Why need choose PLC.<h2></p>
 <p style="text-align: center;">
-<img src="image-35.png" width="100%">
+<img src="./img/image-35.png" width="100%">
 </p>
 
 <br><h2>1.Ladder Logic Basics</h2>
@@ -229,7 +229,7 @@ How to work coil / contact / timer / counter
 </p>
 </p>
     <p style="text-align: center;">
-       <img src="image-26.png" width="100%">
+       <img src="./img/image-26.png" width="100%">
     </p>
     3.2 Write program to self-holding circuit a relay using a start and stop button.</br>
 
@@ -286,7 +286,7 @@ Objective.
 ```
 </p>
     
-![alt text](image-45.png)</p>
+![alt text](./img/image-45.png)</p>
 
 4.1 Understand voltage with temperature and humidity.
 
