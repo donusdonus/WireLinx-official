@@ -21,7 +21,8 @@
     - Modbus RTU \& Modbus TCP
   - [**6. Working with I/O**](#6-working-with-io)
   - [**7. Safety and Maintenance**](#7-safety-and-maintenance)
-  - [**Training Topics for Basic PLC**](#training-topics-for-basic-plc)
+  - [**Training Topics for Basic PLC Overview**](#training-topics-for-basic-plc)
+  - [**Training Course 1 Day PLC [25-26/05/2568]**](./Course/PLC_Training_25052568.md)
 ---
 
 ## **1. Introduction**
