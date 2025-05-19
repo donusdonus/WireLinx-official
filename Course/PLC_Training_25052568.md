@@ -135,5 +135,6 @@ File:LAB21
       - Cooling Tower.
       - Chiler.
       - Air Handling Unit.
+![alt text](image-27.png)
 - ##### Lab3 Quiz final ( 14:00 - 17:00 )
 ---
