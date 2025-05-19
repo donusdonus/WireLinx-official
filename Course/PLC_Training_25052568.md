@@ -33,13 +33,13 @@
       - Air Handling Unit.
 - ##### Lab4 Quiz final ( 14:00 - 17:00 )
 ---
-
+### How to Design Program Filler Machine. 
+![alt text](FillerMachine.gif)
+#### Induction Process Flow. 
+![alt text](image-21.png)
 - #### Lab1 Basic Instruction Ladder Logic ( 08:00 - 09:00 )
-- #### Part1 => Prepare File Input. 
-``` 
-Quiz : 1.How does coil and contact symbol work ?  
-       2.This program how to work. ?
-```
+- #### Part1 => Prepare File Input / Output. 
+![alt text](image-22.png)
 ```
 File:INPUT
 ```
@@ -50,6 +50,7 @@ File:OUTPUT
 ```
 ![alt text](image-3.png)
 - #### Part3 => Condition Start Process.  
+![alt text](image-23.png)
 ```
 File:LAB1  
 Section:Start Process 
@@ -76,6 +77,7 @@ Section:Counter And Stop Process
 ```
 ![alt text](image-9.png)
 - #### Part4 => Mapping Process common with output. 
+![alt text](image-24.png)
 ```
 File:OUTPUT
 ```
@@ -91,6 +93,8 @@ File:OUTPUT
       - MOV.
     - Data Compare Operation.
       - AND= , AND<> , AND> , AND< , AND>= , AND<=.
+
+![alt text](image-26.png)
 ```
 File:LAB2
 Section Counter Hardware Running
