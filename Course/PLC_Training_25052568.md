@@ -126,7 +126,12 @@ File:LAB21
 ```
 ![alt text](image-20.png)
     - Quiz Programming.
-- ##### Application Scada system with PLC ( 13:00 - 14:00 )
+- ### Application Scada system with PLC ( 13:00 - 14:00 )
+- ### Case Study 1
+![alt text](image-28.png)
+- ### Case Study 2
+![alt text](image-29.png)
+```
     - Intro Scada system
       - Supervisor.
       - Control.
@@ -135,6 +140,6 @@ File:LAB21
       - Cooling Tower.
       - Chiler.
       - Air Handling Unit.
+```
 ![alt text](image-27.png)
 - ##### Lab3 Quiz final ( 14:00 - 17:00 )
----
