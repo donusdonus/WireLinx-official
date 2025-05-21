@@ -9,7 +9,7 @@ WiFi Passsword = WireLinx-48D768
 
 ---
 
-#### 2. Access WebConfig.
+#### 2. Access WebConfig
 ```
 Default IP = 192.168.4.1
 Username = admin
