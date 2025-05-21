@@ -1,11 +1,11 @@
-#### D Memory Systen Content
+#### D Memory Systen
 
 | Address         |  Status         |Type|Access|      Description           | Note |
 | :----------: | :--------------: |:---:|:---:| :-------------------------|:--:
 | D8200 | CPU 0 Cycle Time (us.) |Uint16|R|Cycle Time Process In Core0 Unit In microsecond ||
 | D8201 | CPU 1 Cycle Time (us.) |Uint16|R|Cycle Time Process In Core1 Unit In microsecond||
 | D8202 | CHIP CPU Temperature |Uint16|R|Temperature Chip | Value x 0.1 |
-| D8203 | PLC State ||R|PLC Mode Operation<br>0 = No Operation<br>1 = DATA RESET BEFORE PLC RUNNING<br>2 = PLC PROGRAM UNDER DETECTION<br>3 = NORMAL OPERATION<br>4 = STL OPERATION<br>5 = PLC PROGRAM ERROR HANDLING<br>6 = PLC PROGRAM ERROR<br>||
+| D8203 | PLC State ||R|x||
 | D8204 | Voltage Shunt (mV.)  | Uint16 |R| Voltage Shunt in mV Unit ||
 | D8205 | Voltage Bus (V.)     | Uint16 |R| Voltage Bus in V Unit ||
 | D8206 | Current (mA.)        | Uint16 |R| Current in mA Unit ||
